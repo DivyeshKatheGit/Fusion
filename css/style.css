@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Kreon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.wrapper .content .sec1
+{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #f53b57;
+    width: 0%;
+}
+.wrapper .content .sec1 .mission
+{
+    opacity: 0;
+    position: absolute;
+    left: 20%;
+    transform: translateY(-100px);
+}
+.wrapper .content .sec1 .mission p
+{
+    transform: translateY(100px);
+    font-size: 1.6rem;
+    font-weight: 900;
+    color: #dddddd;
+}
+.wrapper .content .sec1 .mission p.first
+{
+    color: #000000;
+    font-size: 1.8rem;
+}
+.wrapper .content .sec1 .title
+{
+    position: absolute;
+    opacity: 0;
+    right: 0%;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+}
+.wrapper .content .sec1 .title span
+{
+    color: #f53b57;
+}
+.wrapper .content .sec2
+{
+    width: 100%;
+    height: 100vh;
+    background: url(../assets/sec2bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.wrapper .content .sec3-1
+{
+    padding: 100px 0px 100px 200px;
+    background-color: #eeeeee;
+}
+.wrapper .content .sec3-1 .sec3-1-innersec,
+.wrapper .content .sec3-2 .sec3-2-innersec
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wrapper .content .sec3-1 .sec3-1-title,
+.wrapper .content .sec3-2 .sec3-2-title,
+.wrapper .content .sec3-3 .sec3-3-title
+{
+    color: #f53b57;
+    font-size: 6rem;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 50px;
+}
+.wrapper .content .sec3-1 .sec3-1-left .headline,
+.wrapper .content .sec3-2 .sec3-2-right .headline,
+.wrapper .content .sec3-3 .sec3-3-bottom .headline
+{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.wrapper .content .sec3-1 .sec3-1-left .headline span,
+.wrapper .content .sec3-2 .sec3-2-right .headline span,
+.wrapper .content .sec3-3 .sec3-3-bottom .headline span
+{
+    color: #f53b57;
+}
+.wrapper .content .sec3-1 .sec3-1-left .subline,
+.wrapper .content .sec3-2 .sec3-2-right .subline,
+.wrapper .content .sec3-3 .sec3-3-bottom .subline
+{
+    width: 300px;
+    color: #535c68;
+    margin: 50px 0 30px 0;
+}
+/* .wrapper .content .sec3-1 .sec3-1-left a
+{
+    padding-bottom: 4px;
+    position: relative;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #000000;
+} */
+.wrapper .content .sec3-1 .sec3-1-right
+{
+    background-color: #1e272e;
+    padding: 60px;
+    transform: translateX(100%);
+}
+.wrapper .content .sec3-1 .sec3-1-right .level
+{
+    display: flex;
+}
+.wrapper .content .sec3-1 .sec3-1-right .level .card
+{
+    width: 300px;
+    height: 200px;
+}
+.wrapper .content .sec3-1 .sec3-1-right .level .card h3
+{
+    position: relative;
+    color: #ffffff;
+    padding-top: 10px;
+    margin-bottom: 30px;
+}
+.wrapper .content .sec3-1 .sec3-1-right .level .card h3::before
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    width: 50px;
+    height: 3px;
+    background-color: #ffffff;
+}
+.wrapper .content .sec3-1 .sec3-1-right .level .card li
+{
+    list-style: none;
+    font-size: 1.1rem;
+    color: #535c68;
+}
+.wrapper .content .sec3-2
+{
+    padding: 100px 350px 100px 0px;
+}
+.wrapper .content .sec3-2 .sec3-2-title
+{
+    margin-left: 200px;
+    color: #000000;
+}
+.wrapper .content .sec3-2 .sec3-2-left
+{
+    background: url(../assets/sec3-2-left.jpg);
+    background-size: cover;
+    width: 700px;
+    height: 450px;
+    transform: translateX(-100%);
+}
+.wrapper .content .sec3-3 .sec3-3-title
+{
+    margin-left: 200px;
+    color: #30336b;
+}
+.wrapper .content .sec3-3 .sec3-3-top
+{
+    width: 100%;
+    height: 0px;
+    background: url(../assets/sec3-3-top.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.wrapper .content .sec3-3 .sec3-3-bottom
+{
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.wrapper .content .sec3-3 .sec3-3-bottom .headline
+{
+    margin-top: 50px;
+}
+.wrapper .content .sec3-4
+{
+    height: 100px;
+    background-color: #f53b57;
+}

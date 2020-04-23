@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Kreon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.wrapper .content .sec1
+{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #f1c40f;
+    width: 0%;
+    margin-left: 30%;
+}
+.wrapper .content .sec1 .mission
+{
+    opacity: 0;
+    position: absolute;
+    right: 10%;
+    transform: translateY(-100px);
+}
+.wrapper .content .sec1 .mission p
+{
+    transform: translateY(100px);
+    font-size: 2rem;
+    font-weight: 900;
+    color: #dddddd;
+}
+.wrapper .content .sec1 .mission p.first
+{
+    color: #000000;
+    font-size: 1.8rem;
+}
+.wrapper .content .sec1 .title
+{
+    position: absolute;
+    opacity: 0;
+    left: -25%;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+}
+.wrapper .content .sec1 .title span
+{
+    color: #000000;
+}
+.wrapper .content .sec2-1
+{
+    padding: 100px 0px 100px 200px;
+}
+.wrapper .content .sec2-1 .sec2-1-innersec,
+.wrapper .content .sec3-1 .sec3-1-innersec,
+.wrapper .content .sec4-1 .sec4-1-innersec,
+.wrapper .content .sec5-1 .sec5-1-innersec .sec5-1-top,
+.wrapper .content .sec5-1 .sec5-1-innersec .sec5-1-bottom,
+.wrapper .content .sec6-1 .sec6-1-innersec,
+.wrapper .content .sec7-1 .sec7-1-innersec
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wrapper .content .sec2-1 .sec2-1-left .headline,
+.wrapper .content .sec3-1 .sec3-1-innersec .headline,
+.wrapper .content .sec4-1 .sec4-1-innersec .headline,
+.wrapper .content .sec5-1 .sec5-1-innersec .headline,
+.wrapper .content .sec6-1 .sec6-1-innersec .headline
+{
+    font-size: 3rem;
+    font-weight: 800;
+}
+.wrapper .content .sec2-1 .sec2-1-left .headline span,
+.wrapper .content .sec3-1 .sec3-1-innersec .headline span,
+.wrapper .content .sec4-1 .sec4-1-innersec .headline span,
+.wrapper .content .sec5-1 .sec5-1-innersec .headline span,
+.wrapper .content .sec6-1 .sec6-1-innersec .headline span,
+.wrapper .content .sec7-1 .sec7-1-innersec .headline span
+{
+    color: #f1c40f;
+}
+.wrapper .content .sec2-1 .sec2-1-left .subline,
+.wrapper .content .sec3-1 .sec3-1-innersec .subline,
+.wrapper .content .sec4-1 .sec4-1-innersec .subline,
+.wrapper .content .sec5-1 .sec5-1-innersec .subline,
+.wrapper .content .sec7-1 .sec7-1-innersec .subline
+{
+    width: 400px;
+    color: #535c68;
+    margin: 50px 0 30px 0;
+}
+.wrapper .content .sec2-1 .sec2-1-right
+{
+    width: 800px;
+    height: 800px;
+    background-size: cover;
+    background: url(../assets/undraw_elements_cipa.png);
+}
+.wrapper .content .sec3-1
+{
+    padding: 100px 0 100px 250px;
+}
+.wrapper .content .sec3-1 .sec3-1-innersec .s1,
+.wrapper .content .sec4-1 .sec4-1-innersec .s2,
+.wrapper .content .sec5-1 .sec5-1-innersec .s1
+{
+    font-weight: 600;
+    color: #556570;
+}
+.wrapper .content .sec3-1 .sec3-1-right
+{
+    width: 600px;
+    height: 500px;
+    background-size: cover;
+    background-image: url(../assets/sec3-1.jpg);
+}
+.wrapper .content .sec4-1
+{
+    padding: 100px 100px 100px 0px;
+}
+.wrapper .content .sec4-1 .sec4-1-right
+{
+    width: 700px;
+    height: 500px;
+    background-size: cover;
+    background-image: url(../assets/sec4-1.jpg);
+}
+.wrapper .content .sec5-1
+{
+    padding-bottom: 100px;
+}
+.wrapper .content .sec5-1 .sec5-1-top
+{
+    padding: 0px 300px 50px 300px;
+}
+.wrapper .content .sec5-1 .sec5-1-bottom img
+{
+    width: 25%;
+    border: 1px solid white;
+}
+.wrapper .content .sec6-1
+{
+    background-color: #1e272e;
+    padding: 100px 100px 100px 300px;
+}
+.wrapper .content .sec6-1 .sec6-1-innersec .headline
+{
+    color: #ffffff;
+    font-size: 3.4rem;
+}
+.wrapper .content .sec6-1 .sec6-1-right
+{
+    padding: 60px;
+}
+.wrapper .content .sec6-1 .sec6-1-right .level
+{
+    display: flex;
+}
+.wrapper .content .sec6-1 .sec6-1-right .level .card
+{
+    width: 300px;
+    height: 200px;
+}
+.wrapper .content .sec6-1 .sec6-1-right .level .card h3
+{
+    position: relative;
+    color: #ffffff;
+    padding-top: 10px;
+    margin-bottom: 30px;
+}
+.wrapper .content .sec6-1 .sec6-1-right .level .card h3::before
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    width: 50px;
+    height: 3px;
+    background-color: #ffffff;
+}
+.wrapper .content .sec6-1 .sec6-1-right .level .card li
+{
+    list-style: none;
+    font-size: 1.1rem;
+    color: #535c68;
+}
+.wrapper .content .sec7-1
+{
+    padding: 50px 300px 100px 300px;
+    background-color: #4b6584;
+}
+.wrapper .content .sec7-1 .sec7-1-innersec .headline
+{
+    color: #ffffff;
+    font-size: 2.6rem;
+    font-weight: 800;
+}
+.wrapper .content .sec7-1 .sec7-1-innersec .subline
+{
+    color: #ffffff;
+}
+.wrapper .content .sec7-1 .sec7-1-innersec a
+{
+    color: #ffffff;
+}

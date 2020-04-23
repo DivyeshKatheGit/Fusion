@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Kreon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Kreon', serif;
+}
+body
+{
+    overflow-x: hidden;
+}
+main
+{
+    width: 100%;
+    background-color: #ffffff;
+}
+
+main header,main footer
+{
+    position: fixed;
+    height: 5vh;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    z-index: 10;
+}
+main header
+{
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+}
+main footer
+{
+    bottom: 0;
+    left: 0;
+    justify-content: center;
+}
+main header .logo
+{
+    margin-left: 30px;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+main header .menu-bar
+{
+    margin-right: 60px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+main footer .social
+{
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 0 20px;
+}
+.wrapper
+{
+    position: absolute;
+    top: 5%;
+    left: 2%;
+    width: 96%;
+    overflow-x: hidden;
+}
+.menu
+{
+    position: fixed;
+    width: 0%;
+    height: 80vh;
+    top: 5vh;
+    opacity: 0;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0 0 500px;
+    z-index: 100;
+    display: none;
+}
+.menu .menu-list
+{
+    margin-bottom: 60px;
+    opacity: 1;
+}
+.menu .menu-list a
+{
+    text-decoration: none;
+    list-style: none;
+    color: #000000;
+    font-size: 2.4rem;
+    font-weight: 800;    
+    display: flex;
+    align-items: center;
+}
+.menu .menu-list span
+{
+    font-size: 2rem;
+    margin-right: 30px;
+}
+.menu .menu-list .menu-item
+{
+    position: relative;
+    margin: 10px 0;
+    z-index: 1;
+}
+.menu .menu-list .menu-item::before
+{
+    position: absolute;
+    content: '';
+    width: 0%;
+    height: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: -1;
+    transition: .3s ease-in-out;
+}
+.menu .menu-list .menu-item:hover::before
+{
+    width: 100%;
+}
+.menu .menu-list a:nth-child(1) .menu-item::before
+{
+    background-color: #f53b5798;
+}
+.menu .menu-list a:nth-child(2) .menu-item::before
+{
+    background-color: #f1c40f98;
+}
+.menu .menu-list a:nth-child(3) .menu-item::before
+{
+    background-color: #2c2c5498;
+}
+.menu .menu-list a:nth-child(4) .menu-item::before
+{
+    background-color: #00b89498;
+}
+.menu .menu-list a:nth-child(5) .menu-item::before
+{
+    background-color: #17c0eb98;
+}
+.menu .menu-list a:nth-child(1) span
+{
+    color: #f53b57;
+}
+.menu .menu-list a:nth-child(2) span
+{
+    color: #f1c40f;
+}.menu .menu-list a:nth-child(3) span
+{
+    color: #2c2c54;
+}.menu .menu-list a:nth-child(4) span
+{
+    color: #00b894;
+}.menu .menu-list a:nth-child(5) span
+{
+    color: #17c0eb;
+}
+.menu.active
+{
+    opacity: 1;
+    width: 90%;
+    display: block;
+    transition: all 1s;
+}
+.menu .info
+{
+    opacity: 1;
+}
+.menu .info p
+{
+    font-size: 1.2rem;
+}
+.menu .info p.first
+{
+    color: #555555;
+    font-size: .8rem;
+}
